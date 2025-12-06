@@ -7,7 +7,6 @@ A custom ergonomic keyboard PCB design using Choc-style hotswap sockets, a face-
 ## Quick Status
 
 - **Branch:** `main`
-- **Releases:** None
 - **Languages:** JavaScript (helper/footprint scripts)
 
 ## Repository Layout
