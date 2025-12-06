@@ -72,6 +72,20 @@ DXFs are in `output\outlines\`. Import them into your CAD/CAM tool or send them 
 - Verify mechanical tolerances for Choc sockets and mounting holes before production.
 - Use the provided `pcbs/EGKeyGerb/` set as a reference; re-run gerber export from your KiCad version after any edits.
 
+## Bill of Materials
+  Part                                 Count                     Cost
+- PCB Fab (With Shipping)	               1	                  $30.00 USD
+- Arduino Pro Micro	                     1	                  $10.00 USD
+- OLED Display	                         1	                   $4.00 USD
+- Kailh Choc v2 Switches	               6 (58 Keys Total)	  $30.00 USD
+- 1N4148 Diodes (SMD)	                   6 (58 Diodes Total)	 $2.00 USD
+- Kailh Choc Hotswap Sockets	           6 (58 Sockets Total)	$10.00 USD
+- Reset Switch (SMD, 4 Pin, Flat)	       1	                   $0.50 USD
+- Mill Max Sockets & Pins	               1	                   $7.50 USD
+- Medium Profile Controller Socket	     1	                   $0.50 USD
+- Choc v1 Keycaps	                       1	                  $50-75 USD
+
+Total: $140-160 USD
 
 ## Contact
 
