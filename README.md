@@ -4,73 +4,20 @@ A custom ergonomic keyboard PCB design using Choc-style hotswap sockets, a face-
 
 ---
 
-## Quick Status
+# Files
+---
+# CAD
+Inside `EGKey main file` there are many different files below is what is most important and how to get there: 
+Starting off with the CAD files, the CAD is under `CAD files`. The main CAD file is `case. step`, if you want the other CAD files then click on `cases` and the rest are in there.
+To see the outlines for the CAD go to `config.yaml` and then `output` and then `outlines`.
 
-- **Branch:** `main`
-- **Languages:** JavaScript (helper/footprint scripts)
+# PCBs
+The PCBs are under `pcbs` then going to `ALL PCBS`. The main PCB file is `EGKeyMasterPCB`, if you wish to see the no routing and my previous attempts at routing then click on `EGKey-noRouting` and `EGKeyPCB-routingV2`.
+The gerber file is under `pcbs` then click on the `EGKeyGerb` file, it's a zip file so it'll download as a zip.
+Under `config.yaml` the footprint for the mounting hole is there under `footprints` and then its the only file under there.
 
-## Repository Layout
-
-- `config.yaml`: Project configuration driving key matrix, thumb cluster, outlines, mounting holes, and standoff definitions.
-- `pcbs/`: KiCad board files and generated outputs.
-  - `pcbs/tutorial.kicad_pcb`: Primary KiCad PCB for the tutorial/board.
-  - `pcbs/EGKeyGerb/`: Pre-generated Gerber set and drill files for fabrication.
-- `footprints/`: Helper/custom footprint files (example: `mountinghole.js`).
-- `output/outlines/`: DXF exports useful for mechanical fabrication and overlays (e.g., `board.dxf`, `keys.dxf`, `combo.dxf`, `raw.dxf`).
-
-## Key Features
-
-- Choc hotswap sockets placed per layout rules.
-- Promicro footprint oriented face-down (undermounted controller).
-- Optional OLED footprint with SDA/SCL nets assigned.
-- Diode footprints supporting through-hole or SMD styles.
-- Mounting holes and standoffs defined in `config.yaml`.
-- DXF and Gerber outputs provided for fabrication.
-
-## Getting Started
-
-### Prerequisites
-
-- KiCad (recommended recent stable release; KiCad 6+).
-- A text editor to view/modify `config.yaml`.
-- Optional: Gerber viewer (e.g., `gerbv`) or an online Gerber viewer.
-
-### Open the board in KiCad
-
-1. Launch KiCad and open `pcbs/tutorial.kicad_pcb`.
-2. Inspect footprints in the `Footprint Editor` and nets in the schematic (if present).
-
-### Generate Gerbers (KiCad GUI)
-
-1. In PCB Editor: `File → Fabrication Outputs → Gerber`.
-2. Export drill files: `File → Fabrication Outputs → Drill Files`.
-
-### Inspect Gerbers (example)
-
-If `gerbv` is installed you can open the generated gerbers:
-
-```powershell
-gerbv pcbs\EGKeyGerb\*.gbr
-```
-
-### Use DXF outlines
-
-DXFs are in `output\outlines\`. Import them into your CAD/CAM tool or send them to your CNC/laser vendor.
-
-## Recommended Workflow
-
-1. Edit `config.yaml` (if you use a generator script to update placement/outlines).
-2. Modify footprints in `footprints/` if necessary.
-3. Open `pcbs/tutorial.kicad_pcb` in KiCad and make board-level edits.
-4. Generate and verify Gerbers and DXFs; validate in a Gerber viewer before sending to fab.
-
-
-
-## Fabrication Tips
-
-- Confirm board stackup and copper thickness with your PCB fab.
-- Verify mechanical tolerances for Choc sockets and mounting holes before production.
-- Use the provided `pcbs/EGKeyGerb/` set as a reference; re-run gerber export from your KiCad version after any edits.
+# Firmware
+To get to the firmware file, click on `firmware` which will be under `EGKey main file` and then inside `firmware` will be all the firmware writting for EGKey.
 
 ## Bill of Materials
   Part                                 Count                     Cost
@@ -86,10 +33,6 @@ DXFs are in `output\outlines\`. Import them into your CAD/CAM tool or send them 
 - Choc v1 Keycaps	                       1	                  $50-75 USD
 
 Total: $140-160 USD
-
-## Contact
-
-Repo owner: `Sh4rk-glitch` (GitHub). Open issues or PRs on this repository.
 
 ---
 
