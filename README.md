@@ -35,6 +35,14 @@ To get to the firmware file, click on `firmware` which will be under `EGKey main
 Total: $140-160 USD
 
 ---
+# Pictures:
+## PCBs:
+<img width="2246" height="1152" alt="image" src="https://github.com/user-attachments/assets/76765afc-523b-488a-a4f6-512d44b94d0d" />
+
+## CAD:
+<img width="1697" height="1049" alt="image" src="https://github.com/user-attachments/assets/71ab273e-d01a-4c9c-9046-2e7c76c9e72d" />
+
+
 
 All images are located on my journal, at:
 [https://blueprint.hackclub.com/projects/5019](url)
