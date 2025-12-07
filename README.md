@@ -5,7 +5,7 @@ A custom ergonomic keyboard PCB design using Choc-style hotswap sockets, a face-
 ---
 
 # Files
----
+
 # CAD
 Inside `EGKey main file` there are many different files below is what is most important and how to get there: 
 Starting off with the CAD files, the CAD is under `CAD files`. The main CAD file is `case. step`, if you want the other CAD files then click on `cases` and the rest are in there.
