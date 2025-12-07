@@ -4,19 +4,19 @@ A custom ergonomic keyboard PCB design using Choc-style hotswap sockets, a face-
 
 ---
 
-## Files
+# Files
 
-# CAD
+## CAD
 Inside `EGKey main file` there are many different files below is what is most important and how to get there: 
 Starting off with the CAD files, the CAD is under `CAD files`. The main CAD file is `case. step`, if you want the other CAD files then click on `cases` and the rest are in there.
 To see the outlines for the CAD go to `config.yaml` and then `output` and then `outlines`.
 
-# PCBs
+## PCBs
 The PCBs are under `pcbs` then going to `ALL PCBS`. The main PCB file is `EGKeyMasterPCB`, if you wish to see the no routing and my previous attempts at routing then click on `EGKey-noRouting` and `EGKeyPCB-routingV2`.
 The gerber file is under `pcbs` then click on the `EGKeyGerb` file, it's a zip file so it'll download as a zip.
 Under `config.yaml` the footprint for the mounting hole is there under `footprints` and then its the only file under there.
 
-# Firmware
+## Firmware
 To get to the firmware file, click on `firmware` which will be under `EGKey main file` and then inside `firmware` will be all the firmware writting for EGKey.
 
 ## Bill of Materials
