@@ -4,7 +4,7 @@ A custom ergonomic keyboard PCB design using Choc-style hotswap sockets, a face-
 
 ---
 
-# Files
+## Files
 
 # CAD
 Inside `EGKey main file` there are many different files below is what is most important and how to get there: 
